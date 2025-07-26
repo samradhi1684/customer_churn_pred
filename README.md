@@ -62,21 +62,21 @@ You can immediately test the app using the sample file test_customer.csv include
 ---
 
 ## What I learnt
-📌 Exploratory Data Analysis (EDA)
+📌 **Exploratory Data Analysis (EDA)**
   - Customer Churn distribution
   - Key patterns with tenure, contract type, monthly charges, etc.
 
-📌 Feature Engineering
+📌 **Feature Engineering**
   - Created charge_ratio = TotalCharges / tenure
   - One-hot encoding of all categorical variables
   - Handled missing and inconsistent data
 
-📌 Modeling & Evaluation
+📌 **Modeling & Evaluation**
   - Tried 3 models: Logistic Regression, XGBoost, Random Forest
   - Selected Logistic Regression with class_weight=balanced for best recall
   - Evaluated using: Accuracy, F1-score, Confusion Matrix, Precision/Recall
 
-📌 App Development
+📌 **App Development**
   - Built the UI using Streamlit
   - Accepts dynamic CSV uploads
   - Aligns uploaded features to model’s input
