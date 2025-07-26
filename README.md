@@ -12,7 +12,9 @@ Customer churn is a costly issue for telecom companies. The goal is to develop a
 ---
 
 ## 🖼️ Preview
+<img width="1906" height="880" alt="Image" src="https://github.com/user-attachments/assets/77570846-2726-4fc2-8534-9d04ac0288a8" />
 
+---
 
 ## 🧠 Key Features
 
@@ -53,8 +55,11 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+
 ## 🧾 Testing the App
 You can immediately test the app using the sample file test_customer.csv included in the repo.
+
+---
 
 ## What I learnt
 📌 Exploratory Data Analysis (EDA)
@@ -77,8 +82,12 @@ You can immediately test the app using the sample file test_customer.csv include
   - Aligns uploaded features to model’s input
   - Returns predictions and churn probability instantly
 
+---
+
 ## 🧰 Tech Stack 
 Python | Pandas | Numpy | Scikit-learn | Streamlit | Matplotlib | Seaborn | Jupyter Notebook
+
+---
 
 ## 🚀 Future Enhancements
   - Add SHAP/Explainable AI integration
@@ -86,6 +95,7 @@ Python | Pandas | Numpy | Scikit-learn | Streamlit | Matplotlib | Seaborn | Jupy
   - Deploy on Streamlit Cloud or HuggingFace
   - Model switcher: try different algorithms live
 
+---
 
 ## ✅ Conclusion 
 This project is a complete ML pipeline that not only delivers accurate churn predictions but also demonstrates critical real-world ML development skills:
